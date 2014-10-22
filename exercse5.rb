@@ -4,5 +4,3 @@ def convert
 	temperature = ((temperature.to_i - 32) * 5) / 9
 	puts "That is equavalent to #{temperature} degrees Celcius"
 end
-
-convert
