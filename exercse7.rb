@@ -16,6 +16,13 @@ students = {
   :cohort3 => students_increasing(22, 5),
 }
 
+def total_students(hash)
+	amount = 0
+	students.each do |key_value_pair|
+		amount += key_value_pair[1]
+	end
+end
+
 
 students_per_cohort(students)
 puts students.keys
