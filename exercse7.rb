@@ -13,7 +13,7 @@ def students_per_cohort(hash)
 end
 
 def students_increasing(num, percentage)
-	return (num * (1 + (percentage * .01))).round #added round function beause you can't have a fractional student	
+	return (num * (1 + (percentage * 0.01))).round #added round function beause you can't have a fractional student	
 end
 
 students_per_cohort(students)
