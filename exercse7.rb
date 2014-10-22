@@ -13,3 +13,4 @@ def students_per_cohort(hash)
 end
 
 students_per_cohort(students)
+puts students.keys
