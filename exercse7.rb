@@ -13,7 +13,7 @@ end
 def total_students(hash)
 	amount = 0
 	hash.each do |key_value_pair|
-		amount += key_value_pair[0]
+		amount += key_value_pair[1]
 	end
 	puts "The total amount of students is #{amount}"
 end
@@ -26,3 +26,4 @@ students = {
 
 students_per_cohort(students)
 puts students.keys
+total_students(students)
