@@ -13,7 +13,6 @@ end
 
 students = {
   :cohort1 => students_increasing(34, 5),
-  :cohort2 => students_increasing(42, 5),
   :cohort3 => students_increasing(22, 5),
 }
 
