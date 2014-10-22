@@ -1,7 +1,7 @@
 students = {
-  :cohort1 => (34 * 1.05).round,
-  :cohort2 => (42 * 1.05).round,
-  :cohort3 => (22 * 1.05).round,
+  :cohort1 => students_increasing(34, 5),
+  :cohort2 => students_increasing(42, 5),
+  :cohort3 => students_increasing(22, 5),
 }
 
 def students_per_cohort(hash)
