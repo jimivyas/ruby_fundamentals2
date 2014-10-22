@@ -13,8 +13,9 @@ end
 def total_students(hash)
 	amount = 0
 	hash.each do |key_value_pair|
-		amount += key_value_pair[1]
+		amount += key_value_pair[0]
 	end
+	puts "The total amount of students is #{amount}"
 end
 
 students = {
